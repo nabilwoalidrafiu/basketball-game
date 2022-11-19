@@ -52,5 +52,7 @@ function leader() {
         leaderEL.innerText = "Home is leading";
     } else if (parseInt(guestScore.innerText) > parseInt(homeScore.innerText)) {
         leaderEL.innerText = "Guest is leading";
+    }else{
+        leaderEL.innerText = "Equal points"
     }
 }
