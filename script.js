@@ -45,6 +45,7 @@ btn2Add3.addEventListener('click', function() {
 newGame.addEventListener('click', function(){
     homeScore.innerText = "0"
     guestScore.innerText = "0"
+    leaderEL.innerText = "Start Now!"
 })
 console.log(parseInt(homeScore.innerText))
 function leader() {
